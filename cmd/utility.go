@@ -1,18 +1,13 @@
 package main
 
-import (
-	"github.com/AxterDoesCode/rtnoobgo/pkg/canvas"
-	"github.com/AxterDoesCode/rtnoobgo/pkg/vec3"
-)
-
 type Scene struct {
 	Spheres []Sphere
 }
 
 type Sphere struct {
-	center vec3.Vec3
+	center Vec3
 	radius int
-	color canvas.Color
+	color Color
 }
 
 func CanvasToViewport(x, y, vw, vh, cw, ch int) vec3.Vec3 {

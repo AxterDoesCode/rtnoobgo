@@ -1,4 +1,4 @@
-package vec3
+package main
 
 type Vec3 struct {
 	X int
