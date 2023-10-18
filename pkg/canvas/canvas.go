@@ -1,4 +1,4 @@
-package main
+package canvas
 
 type Color struct {
 	R int
