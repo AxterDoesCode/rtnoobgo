@@ -1,16 +1,16 @@
 package vec3
 
 type Vec3 struct {
-	X int
-	Y int
-	Z int
+	X float64
+	Y float64
+	Z float64
 }
 
-func New (X, Y, Z int) Vec3 {
+func New (X, Y, Z float64) Vec3 {
     return Vec3{X, Y, Z}
 }
 
-func Dot(u, v Vec3) int {
+func Dot(u, v Vec3) float64 {
     return u.X * v.X + u.Y * v.Y + u.Z * v.Z 
 }
 
